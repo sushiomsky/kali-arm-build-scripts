@@ -29,10 +29,10 @@ unset CROSS_COMPILE
 
 arm="abootimg cgpt fake-hwclock ntpdate u-boot-tools vboot-utils vboot-kernel-utils"
 base="e2fsprogs initramfs-tools kali-defaults kali-menu parted sudo usbutils"
-desktop="fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito gnome-theme-kali gtk3-engines-xfce kali-desktop-xfce kali-root-login lightdm network-manager network-manager-gnome xfce4 xserver-xorg-video-fbdev"
-tools="aircrack-ng ethtool hydra john libnfc-bin mfoc nmap passing-the-hash sqlmap usbutils winexe wireshark"
-services="apache2 openssh-server"
-extras="iceweasel xfce4-terminal wpasupplicant"
+desktop=""
+tools="aircrack-ng ethtool nmap sqlmap usbutils"
+services="openssh-server"
+extras="wpasupplicant"
 
 packages="${arm} ${base} ${desktop} ${tools} ${services} ${extras}"
 architecture="armhf"
